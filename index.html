@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title>Passeios de aventura em Cabo Frio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device=width, initial=scale=1.0">
+    <meta name="description" content="passeios de aventura em cabo frio">
+    <meta name="keywords" content="passeio, temporada, praia, cabo frio, caiaque, ferias, trilha">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/responsive.css">
+    <link rel="shortcut icon" type="image/png" href="./icon/kayak.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+
+<body>
+   <header>
+       <div class="container" >
+           <img src="./IMG/kayak.png" alt="logo" />
+           <div class ="menu-section">
+                <div class="container-menu">
+                    <input type="checkbox" id="checkbox-menu" />
+                    <label for="checkbox-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Passeios</a>
+                        </li>
+                        <li> 
+                            <a href="#">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+       </div>
+   </header>
+   <main>
+       <div class="container-main">
+           <div>
+               <h1><span>Reserve</span></h1>
+               <h2>agora seu passeio</h2>
+               <h3>Mantenha-se informado sobre nossos passeios. Faça o novo, com aventuras diferentes e em conexão com a natureza, Cadastre-se! </h3>
+            <form>
+                <input type="text" placeholder="Nome" />
+                <input type="email" placeholder="E-mail" />
+                <input type="submit" value="Enviar" />
+            </form>
+
+           </div>
+           <img src="./IMG/GOPR6468.webp" alt="fundo">
+       </div>
+   </main>
+   <section class="cards">
+       <div class="card">
+            <div class="image">
+                <img src="./IMG/teste3.png" alt="">
+            </div>
+       
+            <div class="content">
+                <p class="title text--medium"> <b> O passeio começa na ogiva, no canal do Itajuru. Passando por diversas casas a beira do canal, navega até a ilha do japonês. Na ilha temos uma parada para banho. Após o descanso, seguimos remando
+                    em direção ao banco de areia perto da boca da barra, lá temos outra parada para apreciar a belaza do Parque Estadual da Costa do Sol. Seguimos em direção a praia de areia preta, e terminamos a volta em torno de toda a ilha. Voltamos para o canal do Itajuru em direção ao bairro da passagem, outra pausa para ver os prédios históricos e finaliza o passeio retornando ao ponto de encontro.</b> </p>
+                <div class="info">
+                    <p class="title text--medium">Tempo de passeio: 120 min</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./IMG/PASSEIO2.webp" alt="">
+            </div>
+       
+            <div class="content">
+                <p class="title text--medium"> <b>Faremos uma caminhada dentro do Parque Estadual da Costa do Sol até as Piscinas Naturais em Búzios.
+                    Ele reúne, ainda, a Pedra do Guardião e a Praia dos Amores, totalizando uma caminhada de 3,5km. O passeio dura cerca de 3 à 4 horas por conta dos refrescantes banhos na Enseada das Poças (piscinas naturais) e na praia dos Amores, além das possibilidades de belos registros e dos ambientes perfeitos para contemplação e descanso. </b> </p>
+                <div class="info">
+                    <p class="title text--medium">Tempo de passeio: 90 min</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="./IMG/teste5.png" alt="">
+            </div>
+       
+            <div class="content">
+                <p class="title text--medium"> <b>O nosso passeio sai da Fazenda em Búzios, PRAIA JOSÉ GONÇALVES, o percurso é feito pela mata até chegar na beira da praia (sem entrar na areia). A trilha se extende dentro da Área de Preservação Pau Brasil e não é raro o encontro com micos, bicho-preguiça e mico leão dourado. Saindo da mata já se chega na beira da praia com paisagens belíssimas. Trilha perfeita também para iniciantes.</b> </p>
+                <div class="info">
+                    <p class="title text--medium">Tempo de passeio: 120 min</p>
+                </div>
+            </div>
+        </div>
+       
+   </section>
+   <section id="form">
+            <div class="portfolio header">
+                 <h1 class="section-title"><span>Faça sua Reserva</span></h1>
+            </div>
+   </section>
+   <section>
+       <div class="container">
+           <form id="contact" action="" method="POST">
+                <h4>Formulário de Reserva</h4>
+                <fieldset>
+                    <input placeholder="Seu Nome" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Seu Email" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Seu telefone" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Passeio desejado" type="text" tabindex="4" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Data do Passeio" type="date" id="dtini" min="2022-06-06" tabindex="5" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Horário do Passeio" type="time" tabindex="6" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Sua mensagem aqui..." type="text" tabindex="7" required>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">RESERVAR</button>
+                </fieldset>
+           </form>
+       </div>
+   </section>
+        <footer>
+            <br> Venha para Cabo Frio, cidade da Costa do Sol - 350 dias de sol por ano. <br>
+            <br> Copyright 2022 by Vct Data. All Rights Reserved. <br>
+        </footer> 
+        
+</body>
+
+</html>

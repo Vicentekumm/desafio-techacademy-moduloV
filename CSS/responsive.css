@@ -1,10 +1,13 @@
 @media (max-width: 1000px) {
+    
     main .container-main div{
         margin: auto;
     }
+    
     main .container-main img{
         display: none;
     }
+    
     h2 {
         margin-left: 50px;
     }
@@ -21,24 +24,30 @@
     }
     input {
         margin: 12px;
-    }        
-}
-
-@media (min-height: 631px) {
-    .conteiner-menu{
-        display: none;
+    }
+    .form-image {
+        display:none;
+    }
+    
+    .conteiner-form{
+        width: 50%;
     }
 
-}
-
-@media (max-width: 1000px){
     .container {
         padding: 0px 20px;
     }
     
     fieldset {
         display: flex;
+    }
 
+    .container-form{
+        display: flex;
+    }
+
+    .continue-button button{
+        width: 100%;
+    }
 }
 
 @media (max-width: 630px) {
@@ -105,5 +114,35 @@
         transform: rotate(45deg);
         top: 8px;
     }
+
+    .continue-button button{
+        width: 100%;
+    }
+
+    .container-form{
+        padding-left: 1px;
+    }
+
+
+    div.trips-input{
+        width: 50%;
+        padding: 0.7rem;
+         
+    }
+
+    div.trips-title{
+        margin-left: -7rem;
+        
+    }
+
+    div.trips-group{
+        flex-direction: row;
+    
+    }
+
+    footer{
+        margin-top: 7rem;
+    }
+
         
 }

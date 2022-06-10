@@ -309,6 +309,15 @@ div.trips-input label{
     font-weight: bold;
 }
 
+.form-control input{
+    height: 20px;
+    border: 2px solid #0080ed;
+
+}
+
+
+}
+
 
 
 

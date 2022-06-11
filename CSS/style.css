@@ -8,7 +8,6 @@
 }
 
 html, body {
-    height: 100vh;
     font-family: "Source Sans Pro", 'Verdana, Geneva, Tahoma, sans-serif';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -123,10 +122,17 @@ form input {
 form [type="submit"] {
     background-color: #618685;
     color: black;
+    width: 150px;
+    padding-left: 0px;
+    font-size:22px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
-form [type="submit"] :hover {
-    cursor: pointer;
+form [type="submit"]:hover {
+    background-color: #4e8d8b;
+    transform: translateY(-2px);
+
 }
 
 main .container-main img{
@@ -171,6 +177,7 @@ footer {
     cursor: pointer;
     box-shadow: 5px 5px 15px -4px #000000;
     transition: all 0.3s ease 0s;
+    border-radius: 10px;
 }
 
 .card:hover{
@@ -182,6 +189,7 @@ footer {
     padding-top: 60.25%;
     overflow: hidden;
     position: relative;
+    border-radius: 10px 10px 0 0;
 }
 
 .image img {
@@ -294,7 +302,7 @@ div.trips-input label{
 
 
 .continue-button button{
-    width: 58%;
+    width: 33%;
     margin: 0.6rem ;
     padding: 0.5rem 0.5rem;
     border-radius: 10px;
@@ -302,6 +310,13 @@ div.trips-input label{
     background-color: #618685;
     cursor: pointer;
 }
+
+.continue-button button:hover {
+    background-color: #4e8d8b;
+    transform: translateY(-2px);
+
+}
+
 .continue-button button a{
     text-decoration:none;
     color:black;
@@ -316,7 +331,7 @@ div.trips-input label{
 }
 
 
-}
+
 
 
 
